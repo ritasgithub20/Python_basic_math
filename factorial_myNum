@@ -1,0 +1,7 @@
+def factorial(myNum):
+    if myNum == 0:
+        return 1
+    else:
+        return myNum * factorial(myNum-1)
+myNum = int(input("My number is: "))
+print(factorial(myNum))
