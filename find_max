@@ -1,0 +1,11 @@
+nr1 = float(input("Introduce the 1st number: "))
+nr2 = float(input("Introduce the 2nd number: "))
+nr3 = float(input("Introduce the 3rd number: "))
+
+if (nr1 > nr2) and (nr1 > nr3):
+   max = nr1
+elif (nr2 > nr1) and (nr2 > nr3):
+   max = nr2
+else:
+   max = nr3
+print("Max is: ", max)
