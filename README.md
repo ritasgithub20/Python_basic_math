@@ -1,1 +1,1 @@
-# basic math problems solved with Python
+# basic math exercises solved with Python
