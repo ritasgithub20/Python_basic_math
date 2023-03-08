@@ -1,1 +1,1 @@
-# ritas_Python_repo
+# basic math problems 
