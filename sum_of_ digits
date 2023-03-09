@@ -1,0 +1,14 @@
+import math
+def digSum(nr):
+    sum = 0
+    while (nr > 0 or sum > 9):
+        if (nr == 0):
+            nr = sum
+            sum = 0
+        else:
+            sum += nr % 10
+            nr /= 10
+    return sum
+#nr = 1234
+#nr = int(input('My number is: '))
+print(digSum(nr))
