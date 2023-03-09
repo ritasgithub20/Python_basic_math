@@ -1,0 +1,11 @@
+def SQR():
+    import math
+    Y = int(input('My number is: ', ))
+    root = math.sqrt(Y)
+    if int(root + 0.5) ** 2 == Y:
+        print(Y, " is a perfect square.")
+    else:
+        print(Y, " is not a perfect square.")
+
+if __name__ == '__main__':
+    SQR()
