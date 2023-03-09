@@ -1,0 +1,13 @@
+def fibonacciSeries(nr):
+    if(nr == 0):
+        return 0
+    elif(nr == 1):
+        return 1
+    else:
+        return (fibonacciSeries(nr - 1) + fibonacciSeries(nr - 2))
+
+n = int(input())
+print("the Fibonacci sequence is:", end = ' ')
+
+for n in range(0, n):
+   print(fibonacciSeries(n), end = ' ')
