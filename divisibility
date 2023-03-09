@@ -1,0 +1,10 @@
+def divizib():
+    a = int(input('My first number (a) is: ', ))
+    b = int(input('My second number (b) is: ', ))
+    if a % b == 0:
+        print("b divides a")
+    else:
+        print("b doesn't divide a")
+
+if __name__ == '__main__':
+    divizib()
