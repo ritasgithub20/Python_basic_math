@@ -1,9 +1,0 @@
-def myNumber():
-    number = int(input('My number is: ', ))
-    if number % 2 == 0:
-        print("Even number".format(number))
-    else:
-        print("Odd number".format(number))
-
-if __name__ == '__main__':
-    myNumber()
